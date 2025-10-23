@@ -2,11 +2,6 @@ import requests
 import time
 from datetime import datetime
 from telegram import Bot
-
-import sys, types
-sys.modules['imghdr'] = types.ModuleType("imghdr")
-
-
 # === CONFIGURATION ===
 
 BOT_TOKEN = "8255221201:AAHRLChPb6JS0yvUWdT_GAjkSDGDL_6p8Rk"  # Put your token here
